@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9e3e3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .options img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .options img:hover {
+    border-color: #ff6b6b;
+  }
+  
+  #selected-images img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }

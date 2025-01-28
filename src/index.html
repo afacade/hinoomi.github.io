@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Idea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="welcome-page" class="page">
+    <h1>Welcome to Valentine's Day Surprise!</h1>
+    <p>Choose your favorite animal:</p>
+    <div class="options">
+      <img src="dog.jpg" alt="Dog" data-choice="dog">
+      <img src="cat.jpg" alt="Cat" data-choice="cat">
+      <img src="capybara.jpg" alt="Capybara" data-choice="capybara">
+    </div>
+  </div>
+
+  <div id="vehicle-page" class="page hidden">
+    <h1>Now, choose your favorite vehicle:</h1>
+    <div class="options">
+      <img src="car.jpg" alt="Car" data-choice="car">
+      <img src="plane.jpg" alt="Plane" data-choice="plane">
+      <img src="motorcycle.jpg" alt="Motorcycle" data-choice="motorcycle">
+    </div>
+  </div>
+
+  <div id="nature-page" class="page hidden">
+    <h1>Finally, choose your favorite nature scene:</h1>
+    <div class="options">
+      <img src="tree.jpg" alt="Tree" data-choice="tree">
+      <img src="beach.jpg" alt="Beach" data-choice="beach">
+      <img src="mountain.jpg" alt="Mountain" data-choice="mountain">
+    </div>
+  </div>
+
+  <div id="final-page" class="page hidden">
+    <h1>Will you be my Valentine?</h1>
+    <div id="selected-images">
+      <img id="selected-animal" src="" alt="Selected Animal">
+      <img id="selected-vehicle" src="" alt="Selected Vehicle">
+      <img id="selected-nature" src="" alt="Selected Nature">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
