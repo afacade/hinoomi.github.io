@@ -125,7 +125,7 @@ body {
   animation: float 6s ease-in-out infinite;
 }
 
-/* Position animal images */
+/* Position anial images */
 .animal-group img:nth-child(1) { top: 0; right: 75%; transform: translateX(-50%); }
 .animal-group img:nth-child(2) { top: 50%; right: 0; transform: translateY(-50%); }
 .animal-group img:nth-child(3) { bottom: 0; right: 40%; transform: translateX(-50%); }
