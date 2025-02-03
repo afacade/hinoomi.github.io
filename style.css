@@ -119,20 +119,20 @@ body {
 
 #selected-images img {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   animation: float 6s ease-in-out infinite;
 }
 
 /* Position animal images */
-.animal-group img:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%); }
+.animal-group img:nth-child(1) { top: 0; right: 75%; transform: translateX(-50%); }
 .animal-group img:nth-child(2) { top: 50%; right: 0; transform: translateY(-50%); }
-.animal-group img:nth-child(3) { bottom: 0; left: 50%; transform: translateX(-50%); }
+.animal-group img:nth-child(3) { bottom: 0; right: 40%; transform: translateX(-50%); }
 
 /* Position flower images */
-.flower-group img:nth-child(1) { top: 20%; left: 20%; }
-.flower-group img:nth-child(2) { top: 20%; right: 20%; }
+.flower-group img:nth-child(1) { top: 20%; left: 30%; }
+.flower-group img:nth-child(2) { top: 20%; right: 70%; }
 .flower-group img:nth-child(3) { bottom: 20%; left: 50%; transform: translateX(-50%); }
 
 /* Position mascot images */
