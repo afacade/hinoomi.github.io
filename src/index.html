@@ -3,47 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valentine's Day Idea</title>
+  <title>Valentine's Day Surprise</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
 <body>
+  <audio id="background-music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <div id="welcome-page" class="page">
-    <h1>Welcome to Valentine's Day Surprise!</h1>
-    <p>Choose your favorite animal:</p>
+    <h1>Choose Your Favorite Animal:</h1>
     <div class="options">
-      <img src="dog.jpg" alt="Dog" data-choice="dog">
-      <img src="cat.jpg" alt="Cat" data-choice="cat">
-      <img src="capybara.jpg" alt="Capybara" data-choice="capybara">
+      <img src="dog-1.jpg" alt="Dog" data-choice="dog">
+      <img src="cat-1.jpg" alt="Cat" data-choice="cat">
+      <img src="jellyfish-1.jpg" alt="Jellyfish" data-choice="jellyfish">
+      <img src="panda-1.jpg" alt="Panda" data-choice="panda">
+      <img src="penguin-1.jpg" alt="Penguin" data-choice="penguin">
     </div>
   </div>
 
-  <div id="vehicle-page" class="page hidden">
-    <h1>Now, choose your favorite vehicle:</h1>
+  <div id="flower-page" class="page hidden">
+    <h1>Choose Your Favorite Flower:</h1>
     <div class="options">
-      <img src="car.jpg" alt="Car" data-choice="car">
-      <img src="plane.jpg" alt="Plane" data-choice="plane">
-      <img src="motorcycle.jpg" alt="Motorcycle" data-choice="motorcycle">
+      <img src="lily-1.jpg" alt="Lily" data-choice="lily">
+      <img src="rose-1.jpg" alt="Rose" data-choice="rose">
+      <img src="dahlia-1.jpg" alt="Dahlia" data-choice="dahlia">
     </div>
   </div>
 
-  <div id="nature-page" class="page hidden">
-    <h1>Finally, choose your favorite nature scene:</h1>
+  <div id="mascot-page" class="page hidden">
+    <h1>Choose Your Favorite Mascot:</h1>
     <div class="options">
-      <img src="tree.jpg" alt="Tree" data-choice="tree">
-      <img src="beach.jpg" alt="Beach" data-choice="beach">
-      <img src="mountain.jpg" alt="Mountain" data-choice="mountain">
+      <img src="hangyodon-1.jpg" alt="Hangyodon" data-choice="hangyodon">
+      <img src="cinnamon-roll-1.jpg" alt="Cinnamon Roll" data-choice="cinnamon-roll">
+      <img src="hello-kitty-1.jpg" alt="Hello Kitty" data-choice="hello-kitty">
+      <img src="jiji-cat-1.jpg" alt="Jiji Cat" data-choice="jiji-cat">
     </div>
   </div>
 
   <div id="final-page" class="page hidden">
-    <h1>Will you be my Valentine?</h1>
+    <h1>Noomi, Will You Be My Valentine for 2025?</h1>
+    <h1>- Your Soft Egg</h1>
     <div id="selected-images">
-      <img id="selected-animal" src="" alt="Selected Animal">
-      <img id="selected-vehicle" src="" alt="Selected Vehicle">
-      <img id="selected-nature" src="" alt="Selected Nature">
+      <!-- Animal Images -->
+      <div class="image-group animal-group">
+        <img src="" alt="Animal 1" class="animal-image">
+        <img src="" alt="Animal 2" class="animal-image">
+        <img src="" alt="Animal 3" class="animal-image">
+      </div>
+      <!-- Flower Images -->
+      <div class="image-group flower-group">
+        <img src="" alt="Flower 1" class="flower-image">
+        <img src="" alt="Flower 2" class="flower-image">
+        <img src="" alt="Flower 3" class="flower-image">
+      </div>
+      <!-- Mascot Images -->
+      <div class="image-group mascot-group">
+        <img src="" alt="Mascot 1" class="mascot-image">
+        <img src="" alt="Mascot 2" class="mascot-image">
+        <img src="" alt="Mascot 3" class="mascot-image">
+      </div>
     </div>
+    <div class="hearts"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
